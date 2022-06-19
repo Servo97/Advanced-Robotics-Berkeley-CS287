@@ -134,9 +134,9 @@ class ValueIteration(object):
 
         """ INSERT YOUR CODE HERE"""
         if self.policy_type == 'deterministic':
-            raise NotImplementedError
+            next_v = self.value_fun.get_values()
         elif self.policy_type == 'max_ent':
-            raise NotImplementedError
+            
             """ Your code ends here"""
         else:
             raise NotImplementedError
